@@ -8,7 +8,6 @@ import javax.persistence.Id;
 @Entity
 public class Users {
     @Id
-    @GeneratedValue
     private int id ;
     private String aname;
     private String tech ;
